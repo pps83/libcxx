@@ -68,7 +68,7 @@ test()
     static_assert((std::is_same<
         typename S::const_reverse_iterator,
         std::reverse_iterator<typename S::const_iterator> >::value), "");
-    static_assert(S::npos == -1, "");
+    assert(S::npos == -1);
 }
 
 int main()

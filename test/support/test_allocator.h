@@ -7,6 +7,8 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "rbx_test.h"
+
 #ifndef TEST_ALLOCATOR_H
 #define TEST_ALLOCATOR_H
 

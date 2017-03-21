@@ -59,3 +59,11 @@ keep.lst
 
 # Editor by-products
 .vscode/
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+.vs
+Debug
+Release
+x64

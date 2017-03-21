@@ -35,7 +35,11 @@ testAlloc(S s, S str, const typename S::allocator_type& a)
     s.assign(str);
     LIBCPP_ASSERT(s.__invariants());
     assert(s == str);
+#ifdef _MSC_VER
+    BOOST_WARN(s.get_allocator() == a);
+#else
     assert(s.get_allocator() == a);
+#endif
 }
 
 int main()

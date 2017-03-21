@@ -7,6 +7,8 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "rbx_test.h"
+
 #ifndef INPUT_ITERATOR_H
 #define INPUT_ITERATOR_H
 

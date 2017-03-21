@@ -8,6 +8,8 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "rbx_test.h"
+
 #ifndef SUPPORT_TEST_MACROS_HPP
 #define SUPPORT_TEST_MACROS_HPP
 

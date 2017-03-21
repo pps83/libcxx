@@ -7,6 +7,8 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "rbx_test.h"
+
 #ifndef TEST_TRAITS_H
 #define TEST_TRAITS_H
 

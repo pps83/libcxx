@@ -21,6 +21,8 @@
 #include <string>
 #include <cassert>
 
+#include "min_allocator.h"
+
 int main()
 {
     { // N3644 testing
